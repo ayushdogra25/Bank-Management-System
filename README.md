@@ -1,3 +1,6 @@
+ explanation: https://www.youtube.com/watch?v=ITruT3WWHjQ
+
+
 The Bank Management System program in C is a simple yet effective way to simulate basic banking operations. It is designed to allow users to create accounts, deposit money, withdraw money, and check account balances. The program makes use of several important C programming concepts, including structures, arrays, functions, loops, and conditional statements. The core component of the program is the BankAccount structure, which stores essential information about each account, such as the account number, account holder's name, and current balance. By grouping related data using a structure, the program efficiently manages multiple accounts.
 
 An array of BankAccount structures is used to store up to 100 different accounts, making it possible to handle multiple users. The program is divided into specific functions for each banking operation. These functions include creating an account, depositing money, withdrawing money, and checking balances. Each function is modular and performs a specific task, which makes the program more organized, reusable, and easy to understand. For example, the createAccount function gathers information from the user and stores the account details, initializing the balance to zero, while functions like deposit and withdraw modify the balance according to user inputs.
